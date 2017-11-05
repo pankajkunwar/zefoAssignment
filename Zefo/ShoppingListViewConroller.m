@@ -109,12 +109,15 @@
     if ([filterData allKeys].count >0 && self.masterDataSource.count > 0) {
         NSMutableArray *predicateArray = [NSMutableArray new];
         for (NSString *key in [filterData allKeys]) {
+            NSMutableArray *subpredicateArray = [NSMutableArray new];
             for (NSString *value in [filterData valueForKey:key]) {
                 NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K like %@",key,value]; 
-                [predicateArray addObject:predicate];
+                [subpredicateArray addObject:predicate];
             }
+            NSCompoundPredicate *compoundSubPredicate = [NSCompoundPredicate orPredicateWithSubpredicates:subpredicateArray];
+            [predicateArray addObject:compoundSubPredicate];
         }
-        NSCompoundPredicate *compoundPredicate = [NSCompoundPredicate orPredicateWithSubpredicates:predicateArray];
+        NSCompoundPredicate *compoundPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:predicateArray];
         self.dataSource = [[self.masterDataSource filteredArrayUsingPredicate:compoundPredicate] mutableCopy];
     }else{
         self.dataSource = [self.masterDataSource mutableCopy];
