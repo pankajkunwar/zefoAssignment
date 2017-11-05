@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49A2351C1FAF51180073157B /* filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A2351B1FAF51180073157B /* filter.m */; };
+		776C85961FAC41890076181D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C85951FAC41890076181D /* main.m */; };
+		776C85991FAC41890076181D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C85981FAC41890076181D /* AppDelegate.m */; };
+		776C859C1FAC41890076181D /* ShoppingListViewConroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C859B1FAC41890076181D /* ShoppingListViewConroller.m */; };
+		776C859F1FAC418A0076181D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776C859D1FAC418A0076181D /* Main.storyboard */; };
+		776C85A21FAC418A0076181D /* Zefo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 776C85A01FAC418A0076181D /* Zefo.xcdatamodeld */; };
+		776C85A41FAC418B0076181D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776C85A31FAC418B0076181D /* Assets.xcassets */; };
+		776C85A71FAC418B0076181D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776C85A51FAC418B0076181D /* LaunchScreen.storyboard */; };
+		776C85B41FAC4C310076181D /* ShoppingItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C85B31FAC4C310076181D /* ShoppingItemTableViewCell.m */; };
+		776C85B81FAC639D0076181D /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C85B71FAC639D0076181D /* ApiManager.m */; };
+		776C85BB1FAC689E0076181D /* shoppingList.json in Resources */ = {isa = PBXBuildFile; fileRef = 776C85BA1FAC689E0076181D /* shoppingList.json */; };
+		776C85BF1FAC6E130076181D /* DataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C85BE1FAC6E130076181D /* DataSourceManager.m */; };
+		776C85C21FAC6E890076181D /* shoppingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C85C11FAC6E890076181D /* shoppingItem.m */; };
+		776C85C61FAC7F440076181D /* ShoppingItemDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C85C51FAC7F440076181D /* ShoppingItemDetailsViewController.m */; };
+		776C85C91FAC88BB0076181D /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 776C85C81FAC88BB0076181D /* FilterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49A2351A1FAF51180073157B /* filter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = filter.h; sourceTree = "<group>"; };
+		49A2351B1FAF51180073157B /* filter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = filter.m; sourceTree = "<group>"; };
+		776C85911FAC41880076181D /* Zefo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zefo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		776C85951FAC41890076181D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		776C85971FAC41890076181D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		776C85981FAC41890076181D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		776C859A1FAC41890076181D /* ShoppingListViewConroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingListViewConroller.h; sourceTree = "<group>"; };
+		776C859B1FAC41890076181D /* ShoppingListViewConroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingListViewConroller.m; sourceTree = "<group>"; };
+		776C859E1FAC418A0076181D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		776C85A11FAC418A0076181D /* Zefo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zefo.xcdatamodel; sourceTree = "<group>"; };
+		776C85A31FAC418B0076181D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		776C85A61FAC418B0076181D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		776C85A81FAC418B0076181D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776C85B21FAC4C310076181D /* ShoppingItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoppingItemTableViewCell.h; path = Views/ShoppingItemTableViewCell.h; sourceTree = "<group>"; };
+		776C85B31FAC4C310076181D /* ShoppingItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoppingItemTableViewCell.m; path = Views/ShoppingItemTableViewCell.m; sourceTree = "<group>"; };
+		776C85B61FAC639D0076181D /* ApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApiManager.h; path = Manager/ApiManager.h; sourceTree = "<group>"; };
+		776C85B71FAC639D0076181D /* ApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApiManager.m; path = Manager/ApiManager.m; sourceTree = "<group>"; };
+		776C85BA1FAC689E0076181D /* shoppingList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = shoppingList.json; path = Resorces/Json/shoppingList.json; sourceTree = "<group>"; };
+		776C85BD1FAC6E130076181D /* DataSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataSourceManager.h; path = Manager/DataSourceManager.h; sourceTree = "<group>"; };
+		776C85BE1FAC6E130076181D /* DataSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataSourceManager.m; path = Manager/DataSourceManager.m; sourceTree = "<group>"; };
+		776C85C01FAC6E890076181D /* shoppingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shoppingItem.h; path = Models/shoppingItem.h; sourceTree = "<group>"; };
+		776C85C11FAC6E890076181D /* shoppingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = shoppingItem.m; path = Models/shoppingItem.m; sourceTree = "<group>"; };
+		776C85C41FAC7F440076181D /* ShoppingItemDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoppingItemDetailsViewController.h; path = Controllers/ShoppingItemDetailsViewController.h; sourceTree = "<group>"; };
+		776C85C51FAC7F440076181D /* ShoppingItemDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoppingItemDetailsViewController.m; path = Controllers/ShoppingItemDetailsViewController.m; sourceTree = "<group>"; };
+		776C85C71FAC88BB0076181D /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterViewController.h; path = Controllers/FilterViewController.h; sourceTree = "<group>"; };
+		776C85C81FAC88BB0076181D /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilterViewController.m; path = Controllers/FilterViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		776C858E1FAC41880076181D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		776C85881FAC41850076181D = {
+			isa = PBXGroup;
+			children = (
+				776C85931FAC41880076181D /* Zefo */,
+				776C85921FAC41880076181D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		776C85921FAC41880076181D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				776C85911FAC41880076181D /* Zefo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		776C85931FAC41880076181D /* Zefo */ = {
+			isa = PBXGroup;
+			children = (
+				776C85971FAC41890076181D /* AppDelegate.h */,
+				776C85981FAC41890076181D /* AppDelegate.m */,
+				776C85B51FAC4C350076181D /* Views */,
+				776C85AE1FAC41BC0076181D /* Controllers */,
+				776C85B91FAC63AC0076181D /* Managers */,
+				776C85C31FAC6E8D0076181D /* Models */,
+				776C85B11FAC41EA0076181D /* Storyboard */,
+				776C85B01FAC41E00076181D /* Resorces */,
+				776C85A81FAC418B0076181D /* Info.plist */,
+				776C85A01FAC418A0076181D /* Zefo.xcdatamodeld */,
+				776C85941FAC41890076181D /* Supporting Files */,
+			);
+			path = Zefo;
+			sourceTree = "<group>";
+		};
+		776C85941FAC41890076181D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				776C85951FAC41890076181D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		776C85AE1FAC41BC0076181D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				776C859A1FAC41890076181D /* ShoppingListViewConroller.h */,
+				776C859B1FAC41890076181D /* ShoppingListViewConroller.m */,
+				776C85C41FAC7F440076181D /* ShoppingItemDetailsViewController.h */,
+				776C85C51FAC7F440076181D /* ShoppingItemDetailsViewController.m */,
+				776C85C71FAC88BB0076181D /* FilterViewController.h */,
+				776C85C81FAC88BB0076181D /* FilterViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		776C85AF1FAC41DA0076181D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				776C85A31FAC418B0076181D /* Assets.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		776C85B01FAC41E00076181D /* Resorces */ = {
+			isa = PBXGroup;
+			children = (
+				776C85BC1FAC68A10076181D /* Json */,
+				776C85AF1FAC41DA0076181D /* Images */,
+			);
+			name = Resorces;
+			sourceTree = "<group>";
+		};
+		776C85B11FAC41EA0076181D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				776C859D1FAC418A0076181D /* Main.storyboard */,
+				776C85A51FAC418B0076181D /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		776C85B51FAC4C350076181D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				776C85B21FAC4C310076181D /* ShoppingItemTableViewCell.h */,
+				776C85B31FAC4C310076181D /* ShoppingItemTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		776C85B91FAC63AC0076181D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				776C85B61FAC639D0076181D /* ApiManager.h */,
+				776C85B71FAC639D0076181D /* ApiManager.m */,
+				776C85BD1FAC6E130076181D /* DataSourceManager.h */,
+				776C85BE1FAC6E130076181D /* DataSourceManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		776C85BC1FAC68A10076181D /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				776C85BA1FAC689E0076181D /* shoppingList.json */,
+			);
+			name = Json;
+			sourceTree = "<group>";
+		};
+		776C85C31FAC6E8D0076181D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				776C85C01FAC6E890076181D /* shoppingItem.h */,
+				776C85C11FAC6E890076181D /* shoppingItem.m */,
+				49A2351A1FAF51180073157B /* filter.h */,
+				49A2351B1FAF51180073157B /* filter.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		776C85901FAC41880076181D /* Zefo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776C85AB1FAC418B0076181D /* Build configuration list for PBXNativeTarget "Zefo" */;
+			buildPhases = (
+				776C858D1FAC41880076181D /* Sources */,
+				776C858E1FAC41880076181D /* Frameworks */,
+				776C858F1FAC41880076181D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zefo;
+			productName = Zefo;
+			productReference = 776C85911FAC41880076181D /* Zefo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		776C85891FAC41860076181D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Pankaj;
+				TargetAttributes = {
+					776C85901FAC41880076181D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = L7B3TWY6K6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 776C858C1FAC41860076181D /* Build configuration list for PBXProject "Zefo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 776C85881FAC41850076181D;
+			productRefGroup = 776C85921FAC41880076181D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				776C85901FAC41880076181D /* Zefo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		776C858F1FAC41880076181D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776C85A71FAC418B0076181D /* LaunchScreen.storyboard in Resources */,
+				776C85BB1FAC689E0076181D /* shoppingList.json in Resources */,
+				776C85A41FAC418B0076181D /* Assets.xcassets in Resources */,
+				776C859F1FAC418A0076181D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		776C858D1FAC41880076181D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776C85C61FAC7F440076181D /* ShoppingItemDetailsViewController.m in Sources */,
+				776C85C21FAC6E890076181D /* shoppingItem.m in Sources */,
+				776C85C91FAC88BB0076181D /* FilterViewController.m in Sources */,
+				776C859C1FAC41890076181D /* ShoppingListViewConroller.m in Sources */,
+				49A2351C1FAF51180073157B /* filter.m in Sources */,
+				776C85A21FAC418A0076181D /* Zefo.xcdatamodeld in Sources */,
+				776C85B81FAC639D0076181D /* ApiManager.m in Sources */,
+				776C85BF1FAC6E130076181D /* DataSourceManager.m in Sources */,
+				776C85991FAC41890076181D /* AppDelegate.m in Sources */,
+				776C85961FAC41890076181D /* main.m in Sources */,
+				776C85B41FAC4C310076181D /* ShoppingItemTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		776C859D1FAC418A0076181D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776C859E1FAC418A0076181D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		776C85A51FAC418B0076181D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776C85A61FAC418B0076181D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		776C85A91FAC418B0076181D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		776C85AA1FAC418B0076181D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		776C85AC1FAC418B0076181D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7B3TWY6K6;
+				INFOPLIST_FILE = Zefo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pankaj.Zefo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		776C85AD1FAC418B0076181D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7B3TWY6K6;
+				INFOPLIST_FILE = Zefo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pankaj.Zefo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		776C858C1FAC41860076181D /* Build configuration list for PBXProject "Zefo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776C85A91FAC418B0076181D /* Debug */,
+				776C85AA1FAC418B0076181D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776C85AB1FAC418B0076181D /* Build configuration list for PBXNativeTarget "Zefo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776C85AC1FAC418B0076181D /* Debug */,
+				776C85AD1FAC418B0076181D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		776C85A01FAC418A0076181D /* Zefo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				776C85A11FAC418A0076181D /* Zefo.xcdatamodel */,
+			);
+			currentVersion = 776C85A11FAC418A0076181D /* Zefo.xcdatamodel */;
+			path = Zefo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 776C85891FAC41860076181D /* Project object */;
+}

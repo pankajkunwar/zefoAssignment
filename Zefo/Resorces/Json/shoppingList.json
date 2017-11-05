@@ -1,0 +1,13 @@
+
+{"itemList" : [{"name":"Hastings 5-seater Sofa","type":"5 Seater","condition":"Unboxed", "offerPrice":"14,999","orginal Price":"29,000", "logo":"http://www.furniturefashion.com/images/CONTEMPORARY%20OUTDOOR%20SEATING%20AND%20PATIO%20FURNITURE.jpg"},
+               
+               {"name":"Jerilyn 5-seater Sofa","type":"5 Seater","condition":"Unboxed", "offerPrice":"14,999","orginal Price":"29,000", "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxJBgFW8ULxyuPtF8eyaXNE1s5xi5056YruedBy1QLlG8Zpt1"},
+               
+               {"name":"Hastings 2-seater Sofa","type":"2 Seater","condition":"Gently Used", "offerPrice":"7,999","orginal Price":"16,000", "logo":"https://ii2.pepperfry.com/media/catalog/product/f/o/568x284/forma-three-seater-sofa-in-black-colour-by-zofa-forma-three-seater-sofa-in-black-colour-by-zofa-nfq5s4.jpg"},
+               
+               {"name":"Artù Round 8-seater Sectional sofa","type":"8 Seater","condition":"Well Used", "offerPrice":"20,999","orginal Price":"25,000", "logo":"http://www.luxurylivinggroup.com/documents/45016/195357/FF+Art%C3%B9+Sectional+sofa+3+modules+front.jpg/500d1085-9b46-4ee4-a5f5-c540bbe312ea?t=1444318584229"}
+               
+               ],
+    "filter" : [{"type" : ["5 Seater", "3 Seater", "8 Seater"]},
+                {"condition" : ["Unboxed","Well Used", "Gently Used"]}],
+}
