@@ -8,3 +8,4 @@ Repository for zefo assignment
 -> Select the simulator and run.
 -> For running on device you need to update the app Signing from:
   Zefo->Targets->Zefo->Signing->Select your development team.
+
